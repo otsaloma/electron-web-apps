@@ -1,0 +1,7 @@
+/* -*- coding: utf-8-unix -*- */
+
+.v-Message-body pre {
+  font-family: "SF Mono", monospace !important;
+  font-size: 13px !important;
+  line-height: 18px !important;
+}
