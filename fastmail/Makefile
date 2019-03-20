@@ -8,7 +8,7 @@ build:
 	--height=800 \
 	--inject=fastmail.css \
 	--single-instance \
-	"https://www.fastmail.com/mail/Inbox/" \
+	"https://www.fastmail.com/mail/Inbox/?domain=fastmail.fm" \
 	..
 
 .PHONY: build
