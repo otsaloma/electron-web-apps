@@ -7,7 +7,7 @@ build:
 	--width=1200 \
 	--height=800 \
 	--single-instance \
-	"https://mail.google.com/mail/#inbox" \
+	"https://mail.google.com/mail/u/0/#inbox" \
 	..
 
 .PHONY: build
