@@ -5,4 +5,3 @@ Icon=fastmail
 Exec=fastmail
 Categories=Network;Email;
 MimeType=x-scheme-handler/mailto;
-StartupNotify=true
