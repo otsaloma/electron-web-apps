@@ -6,6 +6,7 @@ build:
 	--icon=dropbox-paper.png \
 	--width=1200 \
 	--height=800 \
+	--inject=dropbox-paper.css \
 	--single-instance \
 	"https://paper.dropbox.com/" \
 	..
