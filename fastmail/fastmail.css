@@ -5,3 +5,8 @@
   font-size: 13px !important;
   line-height: 18px !important;
 }
+
+input[type="text"], textarea {
+  font-family: "SF Mono", monospace !important;
+  font-weight: normal !important;
+}
