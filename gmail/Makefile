@@ -2,12 +2,10 @@
 
 build:
 	nativefier \
-	--name=gmail \
-	--icon=gmail.png \
-	--width=1200 \
-	--height=800 \
+	--name gmail \
+	--icon gmail.png \
 	--single-instance \
-	--internal-urls="https://mail.google.com/.*" \
+	--internal-urls "https://mail.google.com/.*" \
 	"https://mail.google.com/mail/u/0/#inbox" \
 	..
 

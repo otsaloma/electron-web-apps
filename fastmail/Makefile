@@ -2,11 +2,9 @@
 
 build:
 	nativefier \
-	--name=fastmail \
-	--icon=fastmail.png \
-	--width=1200 \
-	--height=800 \
-	--inject=fastmail.css \
+	--name fastmail \
+	--icon fastmail.png \
+	--inject fastmail.css \
 	--single-instance \
 	"https://www.fastmail.com/mail/Inbox/?domain=fastmail.fm" \
 	..
