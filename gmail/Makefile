@@ -7,6 +7,7 @@ build:
 	--width=1200 \
 	--height=800 \
 	--single-instance \
+	--internal-urls="https://mail.google.com/.*" \
 	"https://mail.google.com/mail/u/0/#inbox" \
 	..
 
