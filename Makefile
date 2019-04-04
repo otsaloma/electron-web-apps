@@ -1,7 +1,7 @@
 # -*- coding: utf-8-unix -*-
 
 APP =
-APPS = fastmail gmail
+APPS = dropbox-paper fastmail gmail
 PREFIX = /usr/local
 ICON_SIZE = $(if $(APP),$(shell identify -format "%wx%h" $(APP)/$(APP).png))
 
