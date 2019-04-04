@@ -32,6 +32,7 @@ install:
 	sudo ln -s $(PREFIX)/electron/$(APP)/$(APP) $(PREFIX)/bin
 	sudo cp $(APP)/$(APP).desktop $(PREFIX)/share/applications
 	sudo cp $(APP)/$(APP).png $(PREFIX)/share/icons/hicolor/$(ICON_SIZE)/apps
+	sudo update-icon-caches $(PREFIX)/share/icons/hicolor
 
 install-all:
 	for X in $(APPS); do $(MAKE) APP=$$X install; done
@@ -42,6 +43,7 @@ uninstall:
 	sudo rm -rf $(PREFIX)/electron/$(APP)
 	sudo rm -f  $(PREFIX)/share/applications/$(APP).desktop
 	sudo rm -f  $(PREFIX)/share/icons/hicolor/*/apps/$(APP).png
+	sudo update-icon-caches $(PREFIX)/share/icons/hicolor
 
 uninstall-all:
 	for X in $(APPS); do $(MAKE) APP=$$X uninstall; done
