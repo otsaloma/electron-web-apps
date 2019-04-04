@@ -1,6 +1,11 @@
 /* -*- coding: utf-8-unix -*- */
 
 /* Remove giant blank space at the top of a document. */
+
 .editor-viewport {
   display: block !important;
+}
+
+.ace-editor {
+  padding-top: 40px !important;
 }
