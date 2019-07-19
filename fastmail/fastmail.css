@@ -1,5 +1,9 @@
 /* -*- coding: utf-8-unix -*- */
 
+.v-PageHeader {
+  background: #3584e4 !important;
+}
+
 .v-Message-body pre {
   font-family: "SF Mono", monospace !important;
   font-size: 13px !important;
