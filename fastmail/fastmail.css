@@ -4,6 +4,10 @@
   background: #3584e4 !important;
 }
 
+.v-MainNavToolbar-avatar {
+  filter: brightness(100) !important;
+}
+
 .v-Message-body pre {
   font-family: "SF Mono", monospace !important;
   font-size: 13px !important;
