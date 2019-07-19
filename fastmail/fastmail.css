@@ -1,5 +1,9 @@
 /* -*- coding: utf-8-unix -*- */
 
+.t-font-system {
+  font-family: "SF Pro Text", sans-serif !important;
+}
+
 .v-PageHeader {
   background: #3584e4 !important;
 }
