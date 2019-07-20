@@ -5,11 +5,14 @@
 }
 
 .v-PageHeader {
-  background: #3584e4 !important;
+  background: #f6f5f4 !important;
+  border-bottom: 0.0625rem solid #c4c4c4 !important;
+  color: #242424 !important;
 }
 
 .v-MainNavToolbar-avatar {
-  filter: brightness(100) !important;
+  filter: brightness(0) !important;
+  opacity: 0.85 !important;
 }
 
 .v-Message-body pre {
