@@ -10,6 +10,16 @@
   color: #242424 !important;
 }
 
+.v-PageHeader .v-Button {
+  /* From .v-Button--standard */
+  background: linear-gradient(#fdfdfd, #e8e8e8) !important;
+  border: 0.0625rem solid #ccc !important;
+  border-bottom-color: #b7b7b7 !important;
+  border-radius: 0.1875rem !important;
+  box-shadow: 0 0.125rem 0.0625rem -0.0625rem rgba(0, 0, 0, 0.1) !important;
+  color: #444 !important;
+}
+
 .v-MainNavToolbar-avatar {
   filter: brightness(0) !important;
   opacity: 0.85 !important;
