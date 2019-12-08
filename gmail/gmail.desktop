@@ -3,5 +3,5 @@ Type=Application
 Name=Gmail
 Icon=gmail
 Exec=gmail
-Categories=Network;Email;
 MimeType=x-scheme-handler/mailto;
+Categories=Network;Email;
