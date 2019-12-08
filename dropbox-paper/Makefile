@@ -7,6 +7,7 @@ build:
 	--inject dropbox-paper.css \
 	--inject dropbox-paper.js \
 	--single-instance \
+	--electron-version 4.2.11 \
 	"https://paper.dropbox.com/" \
 	..
 
