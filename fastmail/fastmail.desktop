@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=FastMail
-Icon=fastmail
-Exec=fastmail
-MimeType=x-scheme-handler/mailto;
-Categories=Network;Email;
